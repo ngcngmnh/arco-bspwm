@@ -20,7 +20,7 @@ set -e
 echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
-sudo pacman -S --noconfirm --needed cmatrix
+#sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed plank
@@ -31,7 +31,7 @@ sudo pacman -S --noconfirm --needed variety
 
 echo "Installing category Development"
 
-sudo pacman -S --noconfirm --needed atom
+#sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
@@ -53,27 +53,28 @@ sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed inkscape
 sudo pacman -S --noconfirm --needed nomacs
 #sudo pacman -S --noconfirm --needed pinta
-sudo pacman -S --noconfirm --needed ristretto
+#sudo pacman -S --noconfirm --needed ristretto
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 
-sudo pacman -S --noconfirm --needed chromium
+#sudo pacman -S --noconfirm --needed chromium
 #sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed qbittorrent
+sudo pacman -S --noconfirm --needed telegram-desktop
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
 
 #sudo pacman -S --noconfirm --needed clementine
 #sudo pacman -S --noconfirm --needed deadbeef
-sudo pacman -S --noconfirm --needed mpv
+#sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
-sudo pacman -S --noconfirm --needed simplescreenrecorder
+#sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
 #sudo pacman -S --noconfirm --needed
@@ -81,7 +82,7 @@ sudo pacman -S --noconfirm --needed vlc
 echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed evolution
+#sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
 #sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
@@ -98,7 +99,7 @@ sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed baobab
 #sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
-sudo pacman -S --noconfirm --needed dconf-editor
+#sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed git
